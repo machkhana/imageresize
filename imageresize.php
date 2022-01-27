@@ -8,7 +8,7 @@ class Image{
      */
     function ImageResize($width, $height, $file)
     {
-        $dir = 'uploads/';
+        $dir = 'uploads/'; //directory whe need to upload
         /* Get original file size */
         list($w, $h) = getimagesize($_FILES['file']['tmp_name']);
         /* Calculate new image size */
